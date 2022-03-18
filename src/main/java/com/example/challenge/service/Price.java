@@ -1,6 +1,6 @@
 package com.example.challenge.service;
 
-public interface Pricing {
+public interface Price {
 
     /**
      * when the bidder who secures a slot pays

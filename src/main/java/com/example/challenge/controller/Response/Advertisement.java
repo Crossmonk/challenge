@@ -7,7 +7,6 @@ import lombok.Setter;
 @Setter
 public class Advertisement {
     private Bid currentBid;
-    private Slot currentSlot;
     private String ad;
     private boolean sponsored;
     private Bidder currentBidder;

@@ -1,13 +1,14 @@
-package com.example.challenge.configuration;
+package com.example.challenge.util;
 
 import com.example.challenge.controller.Response.Slot;
 import java.util.ArrayList;
 import java.util.List;
 import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Component;
 
 @Component
-public class SlotList {
+public class SlotList{
 
     private List<Slot> inMemorySlotList;
 
